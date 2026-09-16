@@ -88,9 +88,19 @@
             <p><strong>Sunday:</strong> VIP Consultations Only</p>
           </div>
 
+          <!-- Direct Helpline -->
+          <div class="pt-1 text-xs text-neutral-200">
+            <span class="text-neutral-400 block text-[11px]">Direct Phone & WhatsApp:</span>
+            <a href="tel:+923137095454" class="font-bold text-white hover:text-gold-300 text-sm flex items-center gap-1.5 mt-0.5">
+              <span>📞</span>
+              <span>0313-7095454</span>
+              <span class="text-[10px] text-brand-300 font-normal">(+92 313 7095454)</span>
+            </a>
+          </div>
+
           <div class="pt-2">
             <a 
-              href="https://wa.me/?text=FIT" 
+              href="https://wa.me/923137095454?text=FIT" 
               target="_blank"
               class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs shadow-md transition-all"
             >

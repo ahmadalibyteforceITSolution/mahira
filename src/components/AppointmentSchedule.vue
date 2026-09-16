@@ -442,7 +442,7 @@ const resetBooking = () => {
 
 const whatsappDirectConfirmationUrl = computed(() => {
   const text = `Hi Coach Mahira! I just booked my appointment (Ref: ${bookingRef.value}) for ${bookingData.selectedDate.dayName}, ${bookingData.selectedDate.dateString} at ${bookingData.selectedTime}. My goal is: FIT! Please confirm my slot.`
-  return `https://wa.me/?text=${encodeURIComponent(text)}`
+  return `https://wa.me/923137095454?text=${encodeURIComponent(text)}`
 })
 
 onMounted(() => {
