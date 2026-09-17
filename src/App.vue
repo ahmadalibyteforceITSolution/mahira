@@ -34,6 +34,9 @@
 
       <!-- 10. Frequently Asked Questions -->
       <FaqSection />
+
+      <!-- 11. SEO Keywords & Clinical Topics Hub (500+ Ranked Search Topics) -->
+      <SeoKeywordsHub />
     </main>
 
     <!-- Luxury Brand Footer -->
@@ -56,6 +59,7 @@ import RecipesSection from './components/RecipesSection.vue'
 import WorkingHoursSection from './components/WorkingHoursSection.vue'
 import AppointmentSchedule from './components/AppointmentSchedule.vue'
 import FaqSection from './components/FaqSection.vue'
+import SeoKeywordsHub from './components/SeoKeywordsHub.vue'
 import ContactFooter from './components/ContactFooter.vue'
 import FloatingWhatsApp from './components/FloatingWhatsApp.vue'
 </script>
