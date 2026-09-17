@@ -98,6 +98,15 @@
             </a>
           </div>
 
+          <!-- Official Email Desk -->
+          <div class="pt-1 text-xs text-neutral-200">
+            <span class="text-neutral-400 block text-[11px]">Form Queries & Official Email:</span>
+            <a href="mailto:mairasaleem475@gmail.com" class="font-bold text-gold-300 hover:text-gold-200 hover:underline text-xs flex items-center gap-1.5 mt-0.5">
+              <span>✉️</span>
+              <span>mairasaleem475@gmail.com</span>
+            </a>
+          </div>
+
           <div class="pt-2">
             <a 
               href="https://wa.me/923137095454?text=FIT" 
@@ -111,8 +120,39 @@
 
       </div>
 
+      <!-- Partner Network & Backlinks Row -->
+      <div class="py-6 border-t border-brand-900/80 my-2 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-400 gap-4">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="text-neutral-500 font-semibold uppercase tracking-wider text-[10px]">Partner Network:</span>
+          <a 
+            href="https://h-q-design-services.vercel.app/" 
+            target="_blank" 
+            rel="noopener"
+            class="text-brand-300 hover:text-white font-medium underline underline-offset-4 decoration-brand-700 hover:decoration-gold-400 transition-colors"
+          >
+            H&amp;Q Design Services
+          </a>
+          <span class="text-neutral-600">•</span>
+          <a 
+            href="https://ahmad-cloths.vercel.app/" 
+            target="_blank" 
+            rel="noopener"
+            class="text-brand-300 hover:text-white font-medium underline underline-offset-4 decoration-brand-700 hover:decoration-gold-400 transition-colors"
+          >
+            Ahmad Cloths
+          </a>
+        </div>
+
+        <div class="text-[11px] text-neutral-400">
+          Digital Architecture &amp; SEO by 
+          <a href="https://h-q-design-services.vercel.app/" target="_blank" rel="noopener" class="text-gold-300 hover:underline font-semibold">
+            H&amp;Q Design Services
+          </a>
+        </div>
+      </div>
+
       <!-- Bottom Bar -->
-      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-neutral-400 gap-4">
+      <div class="pt-4 flex flex-col sm:flex-row items-center justify-between text-[11px] text-neutral-400 gap-4">
         <div>
           © {{ new Date().getFullYear() }} Revitalize with Mahira (@mahira_244). All rights reserved.
         </div>
@@ -121,7 +161,7 @@
           <span>•</span>
           <a href="#" class="hover:underline">Terms of Service</a>
           <span>•</span>
-          <span class="text-neutral-500">Designed for Clinical Excellence</span>
+          <span class="text-neutral-500">Official Helpline: 0313-7095454</span>
         </div>
       </div>
 

@@ -314,7 +314,7 @@
             </div>
           </div>
 
-          <!-- Instant Direct WhatsApp Action ("DM FIT") -->
+          <!-- Actions: WhatsApp & Direct Email to mairasaleem475@gmail.com -->
           <div class="space-y-2.5">
             <a 
               :href="whatsappDirectConfirmationUrl"
@@ -326,6 +326,20 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
               </svg>
             </a>
+
+            <a 
+              :href="emailDirectConfirmationUrl"
+              class="w-full py-3 px-4 rounded-xl bg-brand-800 hover:bg-brand-900 text-white font-bold text-xs sm:text-sm flex items-center justify-center gap-2 transition-all shadow-sm"
+            >
+              <svg class="w-4 h-4 text-gold-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+              </svg>
+              <span>Email Query to mairasaleem475@gmail.com</span>
+            </a>
+
+            <p class="text-[11px] text-neutral-400">
+              Helpline: <strong>0313-7095454</strong> • Direct Desk: <strong>mairasaleem475@gmail.com</strong>
+            </p>
 
             <button 
               @click="resetBooking"
@@ -346,6 +360,7 @@
 import { ref, reactive, computed, onMounted } from 'vue'
 import { timeSlots } from '../data/workingHours'
 import confetti from 'canvas-confetti'
+import { trackMetaLead, trackMetaSchedule } from '../services/analyticsService'
 
 const currentStep = ref(1)
 const isConfirmed = ref(false)
@@ -424,8 +439,21 @@ const handleNextStep = () => {
   if (currentStep.value < 3) {
     currentStep.value++
   } else {
-    // Finish booking
+    // Finish booking & trigger analytics tracking
     isConfirmed.value = true
+
+    trackMetaLead({
+      service: bookingData.service.name,
+      email: bookingData.email,
+      phone: bookingData.phone
+    })
+
+    trackMetaSchedule({
+      service: bookingData.service.name,
+      date: `${bookingData.selectedDate.dayName}, ${bookingData.selectedDate.dateString}`,
+      time: bookingData.selectedTime
+    })
+
     confetti({
       particleCount: 100,
       spread: 70,
@@ -443,6 +471,28 @@ const resetBooking = () => {
 const whatsappDirectConfirmationUrl = computed(() => {
   const text = `Hi Coach Mahira! I just booked my appointment (Ref: ${bookingRef.value}) for ${bookingData.selectedDate.dayName}, ${bookingData.selectedDate.dateString} at ${bookingData.selectedTime}. My goal is: FIT! Please confirm my slot.`
   return `https://wa.me/923137095454?text=${encodeURIComponent(text)}`
+})
+
+const emailDirectConfirmationUrl = computed(() => {
+  const subject = encodeURIComponent(`[New Consultation Request] Ref: ${bookingRef.value} - ${bookingData.name}`)
+  const body = encodeURIComponent(`Dear Coach Mahira,
+
+I have scheduled a consultation on your website. Here are my details:
+
+Reference Code: ${bookingRef.value}
+Client Name: ${bookingData.name}
+Email: ${bookingData.email}
+WhatsApp/Phone: ${bookingData.phone}
+Program: ${bookingData.service.name}
+Scheduled Date & Time: ${bookingData.selectedDate.dayName}, ${bookingData.selectedDate.dateString} at ${bookingData.selectedTime}
+Platform: ${bookingData.platform}
+Dietary Style: ${bookingData.dietStyle}
+Health Notes/Goal: ${bookingData.healthNotes || 'N/A'}
+
+Please confirm my appointment.
+Best regards,
+${bookingData.name}`)
+  return `mailto:mairasaleem475@gmail.com?subject=${subject}&body=${body}`
 })
 
 onMounted(() => {

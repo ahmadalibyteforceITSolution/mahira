@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mahira-nutritionists.vercel.app/sitemap.xml
