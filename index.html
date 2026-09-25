@@ -357,10 +357,13 @@
       n.callMethod.apply(n,arguments):n.queue.push(arguments)};
       if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
       n.queue=[];t=b.createElement(e);t.async=!0;
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      if(s && s.parentNode){s.parentNode.insertBefore(t,s)}else{b.head.appendChild(t)}}(window, document,'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-      fbq('init', 'YOUR_META_PIXEL_ID');
-      fbq('track', 'PageView');
+      if (window.fbq && 'YOUR_META_PIXEL_ID' !== 'YOUR_META_PIXEL_ID') {
+        fbq('init', 'YOUR_META_PIXEL_ID');
+        fbq('track', 'PageView');
+      }
     </script>
   </head>
   <body class="bg-cream text-neutral-800 font-sans antialiased selection:bg-brand-500 selection:text-white">
