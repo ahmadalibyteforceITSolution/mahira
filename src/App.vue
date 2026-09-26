@@ -62,4 +62,30 @@ import FaqSection from './components/FaqSection.vue'
 import SeoKeywordsHub from './components/SeoKeywordsHub.vue'
 import ContactFooter from './components/ContactFooter.vue'
 import FloatingWhatsApp from './components/FloatingWhatsApp.vue'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const path = window.location.pathname.replace(/\/$/, '')
+  const pathToHash = {
+    '/about': '#about',
+    '/30-day-weight-loss': '#programs',
+    '/pcos-diet-plan': '#programs',
+    '/macro-calculator': '#calculator',
+    '/client-transformations': '#transformations',
+    '/high-protein-recipes': '#recipes',
+    '/clinic-hours': '#hours',
+    '/consultation-booking': '#booking',
+    '/faq': '#faq'
+  }
+
+  const hash = pathToHash[path]
+  if (hash) {
+    setTimeout(() => {
+      const el = document.querySelector(hash)
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth' })
+      }
+    }, 200)
+  }
+})
 </script>

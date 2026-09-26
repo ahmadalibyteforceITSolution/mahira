@@ -47,7 +47,7 @@
   ],
   "rewrites": [
     {
-      "source": "/((?!sitemap\\.xml|robots\\.txt|images/|assets/|favicon\\.ico).*)",
+      "source": "/((?!about|30-day-weight-loss|pcos-diet-plan|macro-calculator|client-transformations|high-protein-recipes|clinic-hours|consultation-booking|faq|sitemap\\.xml|robots\\.txt|images/|assets/|favicon\\.ico).*)",
       "destination": "/index.html"
     }
   ]

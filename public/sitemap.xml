@@ -1,10 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- 1. Home Page -->
   <url>
     <loc>https://mahira-nutritionists.vercel.app/</loc>
-    <lastmod>2026-09-21</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-</urlset>
 
+  <!-- 2. About Coach Mahira -->
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/about/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 3. 30-Day Weight Loss Program -->
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/30-day-weight-loss/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 4. PCOS Diet Plan & Hormonal Reset -->
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/pcos-diet-plan/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 5. Macro & Calorie Calculator -->
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/macro-calculator/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 6. Client Transformations & Reviews -->
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/client-transformations/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 7. High-Protein Healthy Recipes -->
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/high-protein-recipes/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- 8. Clinic Hours & Availability -->
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/clinic-hours/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- 9. 1-on-1 Consultation Booking -->
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/consultation-booking/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 10. Frequently Asked Questions -->
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/faq/</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
