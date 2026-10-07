@@ -1,0 +1,57 @@
+{
+  "name": "Revitalize with Mahira - Clinical Nutritionist",
+  "short_name": "Coach Mahira",
+  "description": "Certified Clinical Nutritionist & Weight Management Coach. Personalized PCOS, weight loss, and medical diet plans.",
+  "start_url": "/?source=pwa",
+  "id": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FDFBF7",
+  "theme_color": "#1D382A",
+  "categories": ["health", "medical", "lifestyle", "fitness"],
+  "icons": [
+    {
+      "src": "/images/coach_mahira_avatar.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/coach_mahira.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Call Clinic Helpline",
+      "short_name": "Call Clinic",
+      "description": "Speak directly with Coach Mahira",
+      "url": "tel:+923137095454",
+      "icons": [{ "src": "/images/coach_mahira_avatar.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Book Consultation",
+      "short_name": "Book Now",
+      "description": "Book a 1-on-1 diet consultation",
+      "url": "/#booking",
+      "icons": [{ "src": "/images/coach_mahira_avatar.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Macro & BMI Calculator",
+      "short_name": "Calculator",
+      "description": "Calculate daily calories and macros",
+      "url": "/#calculator",
+      "icons": [{ "src": "/images/coach_mahira_avatar.jpg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Nutrition & Fat Loss Blog",
+      "short_name": "50 Guides",
+      "description": "Explore 50 clinical nutrition guides",
+      "url": "/#blog",
+      "icons": [{ "src": "/images/coach_mahira_avatar.jpg", "sizes": "192x192" }]
+    }
+  ]
+}

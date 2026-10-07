@@ -1,82 +1,372 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- 1. Home Page -->
+  <!-- Core Website Pages -->
   <url>
     <loc>https://mahira-nutritionists.vercel.app/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
-
-  <!-- 2. About Coach Mahira -->
   <url>
     <loc>https://mahira-nutritionists.vercel.app/about/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- 3. 30-Day Weight Loss Program -->
   <url>
     <loc>https://mahira-nutritionists.vercel.app/30-day-weight-loss/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- 4. PCOS Diet Plan & Hormonal Reset -->
   <url>
     <loc>https://mahira-nutritionists.vercel.app/pcos-diet-plan/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- 5. Macro & Calorie Calculator -->
   <url>
     <loc>https://mahira-nutritionists.vercel.app/macro-calculator/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- 6. Client Transformations & Reviews -->
   <url>
     <loc>https://mahira-nutritionists.vercel.app/client-transformations/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- 7. High-Protein Healthy Recipes -->
   <url>
     <loc>https://mahira-nutritionists.vercel.app/high-protein-recipes/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- 8. Clinic Hours & Availability -->
   <url>
     <loc>https://mahira-nutritionists.vercel.app/clinic-hours/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-
-  <!-- 9. 1-on-1 Consultation Booking -->
   <url>
     <loc>https://mahira-nutritionists.vercel.app/consultation-booking/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
-
-  <!-- 10. Frequently Asked Questions -->
   <url>
     <loc>https://mahira-nutritionists.vercel.app/faq/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- 50 High-Volume Clinical Nutrition & SEO Blog Articles -->
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/how-to-lose-belly-fat-without-starvation/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/30-day-weight-loss-blueprint/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/pcos-diet-plan-foods-to-eat-and-avoid/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/desi-diet-plan-for-weight-loss-pakistan/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/is-roti-or-rice-better-for-weight-loss/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/how-to-overcome-weight-loss-plateau/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/intermittent-fasting-16-8-guide/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/insulin-resistance-diet-and-symptoms/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/high-protein-vegetarian-diet-plan/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/hypothyroidism-weight-loss-diet/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/seed-cycling-for-hormone-balance/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/how-to-calculate-calorie-deficit/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/high-protein-desi-foods-pakistan/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/visceral-fat-vs-subcutaneous-fat/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/postpartum-weight-loss-breastfeeding/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/hormonal-acne-diet-and-skin-clearance/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/how-to-stop-emotional-eating-and-bingeing/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/ramadan-diet-plan-for-weight-loss/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/chai-and-weight-loss-milk-tea-guide/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/best-cooking-oils-fat-loss-desi-kitchen/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/how-to-eat-at-weddings-without-weight-gain/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/daily-protein-intake-calculator-guide/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/post-workout-nutrition-fat-loss-recovery/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/30g-dietary-fiber-daily-fat-loss-gut/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/healthy-fats-for-weight-loss/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/complex-carbs-vs-simple-sugars-weight-loss/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/high-protein-snacks-under-200-calories/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/healthy-weight-gain-lean-bulking-guide/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/how-to-stop-chronic-bloating-and-gas/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/gut-microbiome-and-weight-loss-link/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/probiotics-vs-prebiotics-desi-sources/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/non-alcoholic-fatty-liver-diet-reversal/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/acid-reflux-gerd-natural-cure-diet/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/hydration-and-metabolism-water-intake/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/detox-diets-vs-real-liver-detoxification/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/irritable-bowel-syndrome-ibs-diet-plan/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/type-2-diabetes-reversal-diet-plan/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/how-to-lower-cholesterol-naturally-diet/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/hypertension-high-blood-pressure-dash-diet/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/sleep-deprivation-and-weight-gain-science/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/supplements-that-work-for-weight-loss-health/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/mindful-eating-guide-stop-overeating/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/meal-prep-for-fat-loss-busy-professionals/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/what-to-expect-from-clinical-nutritionist/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/metabolism-booster-foods-and-habits/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/weight-loss-after-40-for-women/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/sugar-cravings-causes-and-how-to-quit/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/belly-fat-after-c-section-recovery-diet/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/uric-acid-and-gout-diet-plan/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mahira-nutritionists.vercel.app/blog/cardio-vs-weights-for-fat-loss/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

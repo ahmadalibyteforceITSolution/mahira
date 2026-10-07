@@ -27,16 +27,20 @@
         </a>
 
         <!-- Desktop Navigation (Strict whitespace-nowrap, never wraps onto 2 lines) -->
-        <nav class="hidden lg:flex items-center gap-4 xl:gap-6 shrink-0">
+        <nav class="hidden lg:flex items-center gap-3.5 xl:gap-5 shrink-0">
           <a href="#about" class="text-xs xl:text-sm font-semibold text-neutral-700 hover:text-brand-800 whitespace-nowrap transition-colors py-1">About</a>
           <a href="#programs" class="text-xs xl:text-sm font-semibold text-neutral-700 hover:text-brand-800 whitespace-nowrap transition-colors py-1">Programs</a>
           <a href="#calculator" class="text-xs xl:text-sm font-semibold text-neutral-700 hover:text-brand-800 whitespace-nowrap transition-colors py-1">Macro Calculator</a>
+          <a href="#blog" class="text-xs xl:text-sm font-semibold text-brand-800 hover:text-brand-950 whitespace-nowrap transition-colors py-1 flex items-center gap-1.5">
+            <span>Blog</span>
+            <span class="px-1.5 py-0.2 rounded-full bg-gold-400 text-brand-950 text-[10px] font-bold">50 Guides</span>
+          </a>
           <a href="#reels" class="text-xs xl:text-sm font-semibold text-neutral-700 hover:text-brand-800 whitespace-nowrap transition-colors py-1 flex items-center gap-1.5">
             <span>Instagram Feed</span>
             <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
           </a>
           <a href="#transformations" class="text-xs xl:text-sm font-semibold text-neutral-700 hover:text-brand-800 whitespace-nowrap transition-colors py-1">Transformations</a>
-          <a href="#hours" class="text-xs xl:text-sm font-semibold text-neutral-700 hover:text-brand-800 whitespace-nowrap transition-colors py-1">Working Hours</a>
+          <a href="#hours" class="text-xs xl:text-sm font-semibold text-neutral-700 hover:text-brand-800 whitespace-nowrap transition-colors py-1">Hours</a>
           <a href="#recipes" class="text-xs xl:text-sm font-semibold text-neutral-700 hover:text-brand-800 whitespace-nowrap transition-colors py-1">Recipes</a>
         </nav>
 
@@ -86,7 +90,11 @@
         <div class="flex flex-col gap-2.5">
           <a @click="isMobileMenuOpen = false" href="#about" class="px-3 py-2 rounded-lg text-neutral-800 font-semibold text-sm hover:bg-brand-50">About Coach Mahira</a>
           <a @click="isMobileMenuOpen = false" href="#programs" class="px-3 py-2 rounded-lg text-neutral-800 font-semibold text-sm hover:bg-brand-50">Nutrition Programs</a>
-          <a @click="isMobileMenuOpen = false" href="#calculator" class="px-3 py-2 rounded-lg text-neutral-800 font-semibold text-sm hover:bg-brand-50">Macro & Calorie Calculator</a>
+          <a @click="isMobileMenuOpen = false" href="#calculator" class="px-3 py-2 rounded-lg text-neutral-800 font-semibold text-sm hover:bg-brand-50">Macro &amp; Calorie Calculator</a>
+          <a @click="isMobileMenuOpen = false" href="#blog" class="px-3 py-2 rounded-lg text-brand-900 font-bold text-sm bg-brand-50 hover:bg-brand-100 flex items-center justify-between">
+            <span>Clinical Nutrition Blog</span>
+            <span class="px-2 py-0.5 rounded-full bg-gold-400 text-brand-950 text-[10px] font-bold">50 Guides</span>
+          </a>
           <a @click="isMobileMenuOpen = false" href="#reels" class="px-3 py-2 rounded-lg text-neutral-800 font-semibold text-sm hover:bg-brand-50 flex items-center justify-between">
             <span>Live Instagram Reels & Posts</span>
             <span class="px-2 py-0.5 rounded-full bg-rose-100 text-rose-700 text-xs font-bold">LIVE</span>

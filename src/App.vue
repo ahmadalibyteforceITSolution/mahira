@@ -35,7 +35,10 @@
       <!-- 10. Frequently Asked Questions -->
       <FaqSection />
 
-      <!-- 11. SEO Keywords & Clinical Topics Hub (500+ Ranked Search Topics) -->
+      <!-- 11. Clinical Knowledge & Blog Guides (50 Comprehensive Articles) -->
+      <BlogSection />
+
+      <!-- 12. SEO Keywords & Clinical Topics Hub (500+ Ranked Search Topics) -->
       <SeoKeywordsHub />
     </main>
 
@@ -44,6 +47,9 @@
 
     <!-- Floating WhatsApp & Instagram Action -->
     <FloatingWhatsApp />
+
+    <!-- PWA Install App Prompt on Phone & Desktop -->
+    <InstallAppBanner />
   </div>
 </template>
 
@@ -59,9 +65,11 @@ import RecipesSection from './components/RecipesSection.vue'
 import WorkingHoursSection from './components/WorkingHoursSection.vue'
 import AppointmentSchedule from './components/AppointmentSchedule.vue'
 import FaqSection from './components/FaqSection.vue'
+import BlogSection from './components/BlogSection.vue'
 import SeoKeywordsHub from './components/SeoKeywordsHub.vue'
 import ContactFooter from './components/ContactFooter.vue'
 import FloatingWhatsApp from './components/FloatingWhatsApp.vue'
+import InstallAppBanner from './components/InstallAppBanner.vue'
 import { onMounted } from 'vue'
 
 onMounted(() => {
@@ -75,7 +83,8 @@ onMounted(() => {
     '/high-protein-recipes': '#recipes',
     '/clinic-hours': '#hours',
     '/consultation-booking': '#booking',
-    '/faq': '#faq'
+    '/faq': '#faq',
+    '/blog': '#blog'
   }
 
   const hash = pathToHash[path]

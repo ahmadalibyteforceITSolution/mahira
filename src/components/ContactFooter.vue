@@ -61,21 +61,24 @@
             <li><a href="#about" class="hover:text-gold-300 transition-colors">About Mahira</a></li>
             <li><a href="#programs" class="hover:text-gold-300 transition-colors">Nutrition Programs</a></li>
             <li><a href="#calculator" class="hover:text-gold-300 transition-colors">Macro Calculator</a></li>
-            <li><a href="#reels" class="hover:text-gold-300 transition-colors">Reels & Videos</a></li>
+            <li><a href="#blog" class="hover:text-gold-300 transition-colors font-semibold text-gold-300 flex items-center gap-1.5"><span>Blog (50 Guides)</span></a></li>
+            <li><a href="#reels" class="hover:text-gold-300 transition-colors">Reels &amp; Videos</a></li>
             <li><a href="#transformations" class="hover:text-gold-300 transition-colors">Client Results</a></li>
             <li><a href="#recipes" class="hover:text-gold-300 transition-colors">High-Protein Meals</a></li>
           </ul>
         </div>
 
-        <!-- Programs (3 cols) -->
+        <!-- Clinical Blog Clusters (3 cols) -->
         <div class="lg:col-span-3 space-y-3">
-          <h4 class="text-xs font-bold uppercase tracking-wider text-gold-400">Protocols</h4>
-          <ul class="space-y-2 text-xs text-neutral-300">
-            <li><a href="#booking" class="hover:text-gold-300 transition-colors">30-Day Revitalize Reset</a></li>
-            <li><a href="#booking" class="hover:text-gold-300 transition-colors">90-Day Metabolic Transformation</a></li>
-            <li><a href="#booking" class="hover:text-gold-300 transition-colors">PCOS & Hormonal Protocol</a></li>
-            <li><a href="#booking" class="hover:text-gold-300 transition-colors">Lean Bulk Weight Gain</a></li>
-            <li><a href="#booking" class="hover:text-gold-300 transition-colors">Free 15-Min Discovery Call</a></li>
+          <h4 class="text-xs font-bold uppercase tracking-wider text-gold-400">Popular Guides (SEO)</h4>
+          <ul class="space-y-1.5 text-xs text-neutral-300">
+            <li><a href="/blog/how-to-lose-belly-fat-without-starvation/" class="hover:text-gold-300 transition-colors">Lose Belly Fat Without Starving</a></li>
+            <li><a href="/blog/pcos-diet-plan-foods-to-eat-and-avoid/" class="hover:text-gold-300 transition-colors">PCOS Foods to Eat &amp; Avoid</a></li>
+            <li><a href="/blog/desi-diet-plan-for-weight-loss-pakistan/" class="hover:text-gold-300 transition-colors">Desi Diet Plan (Roti &amp; Rice)</a></li>
+            <li><a href="/blog/is-roti-or-rice-better-for-weight-loss/" class="hover:text-gold-300 transition-colors">Roti vs Rice for Fat Loss</a></li>
+            <li><a href="/blog/high-protein-desi-foods-pakistan/" class="hover:text-gold-300 transition-colors">15 High Protein Desi Foods</a></li>
+            <li><a href="/blog/type-2-diabetes-reversal-diet-plan/" class="hover:text-gold-300 transition-colors">Type 2 Diabetes Diet Plan</a></li>
+            <li><a href="/blog/" class="text-gold-400 font-bold hover:underline">View All 50 Clinical Guides →</a></li>
           </ul>
         </div>
 
