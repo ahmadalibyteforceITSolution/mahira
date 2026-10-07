@@ -35,18 +35,22 @@
       </div>
 
       <!-- Featured Highlight Blog (Sticky Top Editorial) -->
-      <div v-if="featuredBlog" class="mb-12 bg-linear-to-br from-brand-900 via-brand-800 to-brand-950 text-white rounded-3xl p-6 sm:p-10 shadow-luxury overflow-hidden relative border border-brand-700/50">
+      <div 
+        v-if="featuredBlog" 
+        class="mb-12 bg-gradient-to-br from-brand-900 via-brand-800 to-brand-950 text-white rounded-3xl p-6 sm:p-10 shadow-luxury overflow-hidden relative border border-brand-700/60"
+        style="background: linear-gradient(135deg, #13261C 0%, #1D382A 50%, #0B1711 100%); color: #ffffff;"
+      >
         <div class="absolute -right-16 -top-16 w-80 h-80 bg-gold-400/10 rounded-full blur-3xl pointer-events-none"></div>
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center relative z-10">
           <div class="lg:col-span-7 space-y-4">
             <div class="flex flex-wrap items-center gap-2">
-              <span class="px-3 py-1 rounded-full bg-gold-400 text-brand-950 text-xs font-bold uppercase tracking-wider">
+              <span class="px-3 py-1 rounded-full bg-gold-400 text-brand-950 text-xs font-bold uppercase tracking-wider shadow-xs">
                 ⭐ Featured Masterclass
               </span>
-              <span class="px-3 py-1 rounded-full bg-white/10 text-gold-300 text-xs font-medium border border-white/10">
+              <span class="px-3 py-1 rounded-full bg-white/15 text-gold-300 text-xs font-semibold border border-white/20">
                 {{ featuredBlog.category }}
               </span>
-              <span class="text-xs text-neutral-300 flex items-center gap-1">
+              <span class="text-xs text-gold-200 flex items-center gap-1 font-medium">
                 <svg class="w-3.5 h-3.5 text-gold-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <circle cx="12" cy="12" r="10" stroke-width="2"/>
                   <polyline points="12 6 12 12 16 14" stroke-width="2"/>
@@ -55,18 +59,18 @@
               </span>
             </div>
 
-            <h3 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-white leading-snug">
+            <h3 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-white leading-snug tracking-tight">
               {{ featuredBlog.title }}
             </h3>
 
-            <p class="text-neutral-200 text-sm sm:text-base leading-relaxed line-clamp-3">
+            <p class="text-neutral-100 text-sm sm:text-base leading-relaxed line-clamp-3">
               {{ featuredBlog.excerpt }}
             </p>
 
             <div class="pt-2 flex flex-wrap items-center gap-4">
               <button 
                 @click="openBlogModal(featuredBlog)"
-                class="px-6 py-3 rounded-full bg-gold-400 hover:bg-gold-300 text-brand-950 font-bold text-sm shadow-md transition-all hover:scale-105 cursor-pointer inline-flex items-center gap-2"
+                class="px-6 py-3 rounded-full bg-gold-400 hover:bg-gold-300 text-brand-950 font-bold text-sm shadow-lg transition-all hover:scale-105 cursor-pointer inline-flex items-center gap-2"
               >
                 <span>Read Full Masterclass Guide</span>
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -75,7 +79,7 @@
               </button>
               <a 
                 :href="`/blog/${featuredBlog.slug}/`" 
-                class="text-xs text-gold-300 hover:text-white underline underline-offset-4 transition-colors"
+                class="text-xs text-gold-300 hover:text-white underline underline-offset-4 transition-colors font-medium"
               >
                 Open static page ↗
               </a>
@@ -89,13 +93,13 @@
                 :alt="featuredBlog.title" 
                 class="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
               />
-              <div class="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent"></div>
-              <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-xs text-white">
-                <span class="font-semibold flex items-center gap-1.5">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+              <div class="absolute bottom-3 left-3 right-3 flex items-center justify-between text-xs text-white font-medium">
+                <span class="flex items-center gap-1.5 font-bold">
                   <img src="/images/coach_mahira_avatar.jpg" alt="Coach Mahira" class="w-6 h-6 rounded-full border border-gold-400 object-cover" />
                   Coach Mahira
                 </span>
-                <span class="text-gold-300 font-medium">{{ featuredBlog.date }}</span>
+                <span class="text-gold-300 font-semibold">{{ featuredBlog.date }}</span>
               </div>
             </div>
           </div>
@@ -376,16 +380,19 @@
               </div>
             </div>
 
-            <!-- Key Takeaways Box -->
-            <div class="bg-linear-to-r from-brand-900 to-brand-950 text-white rounded-2xl p-6 shadow-md border border-gold-400/30">
-              <div class="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wider mb-3">
-                <span>⚡</span>
-                <span>Key Clinical Takeaways</span>
+            <!-- Key Takeaways Box (Guaranteed Dark Forest Green Background with High-Contrast White & Gold Text) -->
+            <div 
+              class="bg-gradient-to-r from-brand-900 via-brand-950 to-brand-900 text-white rounded-2xl p-6 sm:p-7 shadow-lg border border-gold-400/40"
+              style="background: linear-gradient(135deg, #13261C 0%, #0B1711 100%); color: #ffffff;"
+            >
+              <div class="flex items-center gap-2 text-gold-400 font-bold text-sm uppercase tracking-wider mb-3.5">
+                <span class="text-base">⚡</span>
+                <span class="text-gold-300 font-bold tracking-wide">Key Clinical Takeaways</span>
               </div>
-              <ul class="space-y-2 text-xs sm:text-sm text-neutral-200">
-                <li v-for="(k, i) in selectedBlog.keyTakeaways" :key="i" class="flex items-start gap-2">
-                  <span class="text-gold-400 font-bold">✓</span>
-                  <span>{{ k }}</span>
+              <ul class="space-y-2.5 text-xs sm:text-sm text-neutral-100 font-medium leading-relaxed">
+                <li v-for="(k, i) in selectedBlog.keyTakeaways" :key="i" class="flex items-start gap-2.5">
+                  <span class="text-gold-400 font-bold text-sm shrink-0">✓</span>
+                  <span class="text-neutral-100">{{ k }}</span>
                 </li>
               </ul>
             </div>
@@ -400,7 +407,7 @@
                 <h2 class="font-serif text-xl sm:text-2xl font-bold text-brand-950">
                   {{ sec.heading }}
                 </h2>
-                <div class="text-neutral-700 leading-relaxed" v-html="sec.content"></div>
+                <div class="text-neutral-700 leading-relaxed space-y-3" v-html="sec.content"></div>
               </div>
             </div>
 
@@ -427,31 +434,33 @@
             </div>
 
             <!-- Consultation Booking Call-to-Action Banner -->
-            <div class="bg-linear-to-br from-gold-400/20 via-brand-100/60 to-gold-400/20 border border-gold-400/40 rounded-3xl p-6 sm:p-8 text-center space-y-4 shadow-sm">
-              <span class="text-2xl">🌿</span>
-              <h3 class="font-serif text-2xl font-bold text-brand-950">
+            <div 
+              class="bg-gradient-to-br from-brand-900 via-brand-800 to-brand-950 text-white border border-gold-400/40 rounded-3xl p-6 sm:p-8 text-center space-y-4 shadow-lg"
+              style="background: linear-gradient(135deg, #13261C 0%, #1D382A 50%, #0B1711 100%); color: #ffffff;"
+            >
+              <span class="text-3xl inline-block">🌿</span>
+              <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white tracking-tight">
                 Ready for a Customized Nutrition Plan?
               </h3>
-              <p class="text-neutral-700 text-xs sm:text-sm max-w-xl mx-auto leading-relaxed">
-                Stop guessing with online diets. Get a 100% bio-individual meal plan designed for your lifestyle, health markers, and taste preferences.
+              <p class="text-neutral-200 text-xs sm:text-sm max-w-xl mx-auto leading-relaxed">
+                Stop guessing with generic internet diets. Get a 100% bio-individual meal plan designed for your lifestyle, metabolic rate, and taste preferences.
               </p>
               <div class="flex flex-wrap items-center justify-center gap-3 pt-2">
                 <a 
+                  href="tel:+923137095454"
+                  class="px-5 py-3 rounded-full bg-gold-400 hover:bg-gold-300 text-brand-950 font-bold text-xs sm:text-sm shadow-md transition-all hover:scale-105 flex items-center gap-2"
+                >
+                  <span>📞 Call: 0313-7095454</span>
+                </a>
+                <a 
                   href="https://wa.me/923137095454?text=Hi%20Coach%20Mahira,%20I%20read%20your%20blog%20and%20want%20to%20book%20a%20consultation!"
                   target="_blank"
-                  class="px-6 py-3 rounded-full bg-emerald-700 hover:bg-emerald-800 text-white font-bold text-xs sm:text-sm shadow-md transition-all hover:scale-105 flex items-center gap-2"
+                  class="px-6 py-3 rounded-full bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs sm:text-sm shadow-md transition-all hover:scale-105 flex items-center gap-2"
                 >
-                  <span>Chat with Coach on WhatsApp</span>
+                  <span>WhatsApp Coach Mahira</span>
                   <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
                   </svg>
-                </a>
-                <a 
-                  @click="closeBlogModal"
-                  href="#booking"
-                  class="px-5 py-3 rounded-full bg-brand-900 text-white font-bold text-xs sm:text-sm hover:bg-brand-950 transition-colors"
-                >
-                  Book Online Consultation
                 </a>
               </div>
             </div>
