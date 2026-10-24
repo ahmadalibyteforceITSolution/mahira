@@ -15,10 +15,12 @@
           </a>
           <span class="text-white/20">•</span>
           <div class="flex items-center gap-1.5">
-            <svg class="w-3.5 h-3.5 text-[#00BDE0] flex-shrink-0" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+            <svg class="w-3.5 h-3.5 text-[#00BDE0] flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" />
+              <line x1="2" y1="12" x2="22" y2="12" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
             </svg>
-            <span>Location: DHA Phase 6 &amp; Gulberg, Lahore</span>
+            <span>100% Online Working • Worldwide Consultations</span>
           </div>
           <span class="text-white/20">•</span>
           <div class="flex items-center gap-1.5">

@@ -88,7 +88,7 @@
               <h3 class="text-lg font-extrabold text-[#031B4E]">Weekly Clinic Roster</h3>
               <p class="text-xs text-[#566593]">Pakistan Standard Time (PKT / GMT+5)</p>
             </div>
-            <span class="text-xs font-bold text-[#00BDE0]">DHA Phase 6 Clinic</span>
+            <span class="text-xs font-bold text-[#00BDE0]">100% Online Working (Worldwide)</span>
           </div>
 
           <div class="divide-y divide-slate-200/80">

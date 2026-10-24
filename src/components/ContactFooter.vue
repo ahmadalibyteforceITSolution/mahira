@@ -32,8 +32,8 @@
             🏥
           </div>
           <div>
-            <h4 class="font-bold text-sm text-white">DHA Phase 6 Clinic Studio</h4>
-            <p class="text-xs text-slate-300">Certified clinical dietitian &amp; weight management coach.</p>
+            <h4 class="font-bold text-sm text-white">100% Online Working</h4>
+            <p class="text-xs text-slate-300">Worldwide virtual consultations &amp; digital nutrition coaching.</p>
           </div>
         </div>
       </div>
@@ -197,24 +197,6 @@
             class="text-[#00BDE0] hover:text-white font-semibold underline underline-offset-4 transition-colors"
           >
             S&amp;D Marketing Solution
-          </a>
-          <span class="text-slate-600">•</span>
-          <a 
-            href="https://spacezandplaces.com/" 
-            target="_blank" 
-            rel="noopener"
-            class="text-[#00BDE0] hover:text-white font-semibold underline underline-offset-4 transition-colors"
-          >
-            Spacez and Places
-          </a>
-          <span class="text-slate-600">•</span>
-          <a 
-            href="https://h-q-design-services.vercel.app/" 
-            target="_blank" 
-            rel="noopener"
-            class="text-[#00BDE0] hover:text-white font-semibold underline underline-offset-4 transition-colors"
-          >
-            H&amp;Q Design Services
           </a>
         </div>
 
