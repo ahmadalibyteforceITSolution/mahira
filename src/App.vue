@@ -1,6 +1,6 @@
 <template>
-  <div class="min-h-screen flex flex-col bg-cream text-neutral-900 font-sans selection:bg-brand-600 selection:text-white">
-    <!-- Sticky Luxury Navigation -->
+  <div class="min-h-screen flex flex-col bg-white text-[#566593] font-sans selection:bg-[#ccf2f9] selection:text-[#0A3366]">
+    <!-- Modern Sticky Navigation matching socialanddigitalmarketing.com -->
     <Navbar />
 
     <!-- Main Content Area -->
@@ -8,7 +8,7 @@
       <!-- 1. Hero Section -->
       <HeroSection />
 
-      <!-- 2. Real-Time Instagram Feed & Video Reels -->
+      <!-- 2. Real-Time Instagram Feed & Cinema Video Player -->
       <InstagramReelsSection />
 
       <!-- 3. About Coach Mahira -->
@@ -42,7 +42,7 @@
       <SeoKeywordsHub />
     </main>
 
-    <!-- Luxury Brand Footer -->
+    <!-- Modern Digital Agency Footer -->
     <ContactFooter />
 
     <!-- Floating WhatsApp & Instagram Action -->

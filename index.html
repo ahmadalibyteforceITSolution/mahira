@@ -30,7 +30,7 @@
     <meta name="language" content="English" />
     <meta name="geo.region" content="PK" />
     <meta name="geo.placename" content="Lahore" />
-    <meta name="theme-color" content="#1D382A" />
+    <meta name="theme-color" content="#00BDE0" />
 
     <!-- Open Graph / Meta Ads / Facebook & Instagram -->
     <meta property="og:type" content="website" />
@@ -65,7 +65,11 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- Google Fonts: Poppins (Matching socialanddigitalmarketing.com) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet" />
+    <script async src="//www.instagram.com/embed.js"></script>
 
     <!-- JSON-LD Structured Data: MedicalBusiness / Nutritionist -->
     <script type="application/ld+json">
@@ -336,21 +340,39 @@
         "ratingValue": "4.9",
         "reviewCount": "28"
       },
+      "video": {
+        "@type": "VideoObject",
+        "name": "High-Protein Chicken & Chickpea Macaroni Salad Cooking Video",
+        "description": "Step-by-step cooking tutorial by Coach Mahira preparing the high-protein chicken and chickpea weight loss macaroni salad.",
+        "thumbnailUrl": [
+          "https://mahira-nutritionists.vercel.app/images/healthy_chicken_salad.jpg",
+          "https://mahira-nutritionists.vercel.app/images/reel_cooking.jpg"
+        ],
+        "uploadDate": "2026-09-17T08:00:00+05:00",
+        "contentUrl": "https://assets.mixkit.co/videos/preview/mixkit-hands-cutting-fresh-vegetables-for-a-salad-42635-large.mp4",
+        "embedUrl": "https://www.instagram.com/reel/C-xyz123/embed"
+      },
       "recipeInstructions": [
         {
           "@type": "HowToStep",
           "name": "Boil macaroni and prep chicken",
-          "text": "Boil whole wheat macaroni until al dente, drain, and set aside to cool. Shred grilled or boiled chicken breast into bite-sized pieces."
+          "text": "Boil whole wheat macaroni until al dente, drain, and set aside to cool. Shred grilled or boiled chicken breast into bite-sized pieces.",
+          "url": "https://mahira-nutritionists.vercel.app/high-protein-recipes/#step1",
+          "image": "https://mahira-nutritionists.vercel.app/images/healthy_chicken_salad.jpg"
         },
         {
           "@type": "HowToStep",
           "name": "Chop vegetables",
-          "text": "Dice fresh cucumber, cherry tomatoes, and purple onion into small cubes."
+          "text": "Dice fresh cucumber, cherry tomatoes, and purple onion into small cubes.",
+          "url": "https://mahira-nutritionists.vercel.app/high-protein-recipes/#step2",
+          "image": "https://mahira-nutritionists.vercel.app/images/healthy_chicken_salad.jpg"
         },
         {
           "@type": "HowToStep",
           "name": "Mix dressing and combine",
-          "text": "In a large bowl, whisk together plain Greek yogurt, cold-pressed olive oil, lemon juice, Himalayan pink salt, and freshly cracked black pepper. Add the macaroni, chicken, boiled chickpeas, and vegetables. Toss well and serve fresh."
+          "text": "In a large bowl, whisk together plain Greek yogurt, cold-pressed olive oil, lemon juice, Himalayan pink salt, and freshly cracked black pepper. Add the macaroni, chicken, boiled chickpeas, and vegetables. Toss well and serve fresh.",
+          "url": "https://mahira-nutritionists.vercel.app/high-protein-recipes/#step3",
+          "image": "https://mahira-nutritionists.vercel.app/images/healthy_chicken_salad.jpg"
         }
       ]
     }
@@ -373,7 +395,7 @@
       }
     </script>
   </head>
-  <body class="bg-cream text-neutral-800 font-sans antialiased selection:bg-brand-500 selection:text-white">
+  <body class="min-h-full flex flex-col font-sans bg-white text-[#566593] selection:bg-[#ccf2f9] selection:text-[#0A3366]">
     <noscript>
       <img height="1" width="1" style="display:none"
            src="https://www.facebook.com/tr?id=YOUR_META_PIXEL_ID&ev=PageView&noscript=1"/>

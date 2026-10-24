@@ -46,3 +46,5 @@ export function getClinicStatus() {
     }
   }
 }
+
+export const isClinicCurrentlyOpen = getClinicStatus;

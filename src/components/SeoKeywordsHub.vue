@@ -1,19 +1,19 @@
 <template>
-  <section id="seo-directory" class="py-16 bg-brand-950/90 text-neutral-200 border-t border-brand-800/60">
+  <section id="seo-directory" class="py-16 bg-[#031B4E] text-slate-200 border-t border-[#0A3366]">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       
       <!-- Section Header -->
       <div class="text-center max-w-3xl mx-auto mb-12">
-        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-gold-400/10 border border-gold-400/30 text-gold-400 text-xs font-bold uppercase tracking-wider mb-3">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full badge-cyan text-xs font-bold uppercase tracking-wider mb-3">
           <span>⚡</span>
           <span>Google Top-Rank SEO Knowledge Index</span>
         </div>
-        <h2 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-white tracking-tight mb-3">
+        <h2 class="font-bold text-2xl sm:text-3xl lg:text-4xl text-white tracking-tight mb-3">
           Top Searched Nutrition, Weight Loss &amp; Clinical Topics
         </h2>
         <p class="text-neutral-300 text-xs sm:text-sm leading-relaxed">
           Explore over 500+ clinical protocols, dietary guides, and regional weight management topics coached by 
-          <span class="text-gold-300 font-semibold">Coach Mahira (@mahira_244)</span> across Lahore, Pakistan, and worldwide.
+          <span class="text-[#00BDE0] font-semibold">Coach Mahira (@mahira_244)</span> across Lahore, Pakistan, and worldwide.
         </p>
       </div>
 
@@ -25,26 +25,24 @@
           @click="activeCluster = idx"
           :class="[
             'px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all cursor-pointer',
-            activeCluster === idx
-              ? 'bg-gold-400 text-brand-950 shadow-lg shadow-gold-400/20 scale-105'
-              : 'bg-brand-900/60 text-neutral-300 hover:bg-brand-800/80 hover:text-white border border-brand-800/50'
+            activeCluster === idx ? 'bg-[#00BDE0] text-[#031B4E] shadow-lg shadow-[#00BDE0]/25 scale-105 font-bold' : 'bg-[#0A3366]/60 text-slate-300 hover:bg-[#0A3366] hover:text-white border border-white/10'
           ]"
         >
           <span class="mr-1.5">{{ cat.icon }}</span>
           {{ cat.title }}
-          <span class="ml-1.5 px-1.5 py-0.5 text-[10px] rounded-full" :class="activeCluster === idx ? 'bg-brand-950/20 text-brand-950 font-bold' : 'bg-brand-800 text-gold-300'">
+          <span class="ml-1.5 px-1.5 py-0.5 text-[10px] rounded-full" :class="activeCluster === idx ? 'bg-[#031B4E]/20 text-[#031B4E] font-bold' : 'bg-[#031B4E] text-[#00BDE0]'">
             {{ cat.keywords.length }}
           </span>
         </button>
       </div>
 
       <!-- Active Cluster Content Display -->
-      <div class="bg-brand-900/40 border border-brand-800/80 rounded-2xl p-6 sm:p-8 backdrop-blur-sm mb-8 shadow-xl">
-        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-brand-800/60 mb-6">
+      <div class="bg-[#0A3366]/40 border border-[#00BDE0]/20 rounded-2xl p-6 sm:p-8 backdrop-blur-sm mb-8 shadow-xl">
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-white/10 mb-6">
           <div>
             <div class="flex items-center gap-2">
               <span class="text-2xl">{{ clusters[activeCluster].icon }}</span>
-              <h3 class="font-serif text-xl sm:text-2xl font-bold text-white">
+              <h3 class="font-bold text-xl sm:text-2xl text-white">
                 {{ clusters[activeCluster].title }}
               </h3>
             </div>
@@ -55,7 +53,7 @@
           <div class="flex items-center gap-3">
             <a 
               href="#booking"
-              class="px-4 py-2 rounded-xl bg-gold-400 hover:bg-gold-300 text-brand-950 font-bold text-xs shadow-md transition-all whitespace-nowrap"
+              class="px-4 py-2 rounded-xl bg-[#00BDE0] hover:bg-[#00a1be] text-[#031B4E] font-bold text-xs shadow-md transition-all whitespace-nowrap"
             >
               Book Consultation
             </a>
@@ -74,7 +72,7 @@
             v-model="searchTerm"
             type="text"
             placeholder="Search keywords (e.g. belly fat, PCOS, roti, protein, Lahore)..."
-            class="w-full sm:max-w-md px-4 py-2 text-xs rounded-xl bg-brand-950/80 border border-brand-700 text-white placeholder-neutral-400 focus:outline-none focus:border-gold-400 transition-colors"
+            class="w-full sm:max-w-md px-4 py-2 text-xs rounded-xl bg-[#031B4E]/80 border border-white/15 text-white placeholder-slate-400 focus:outline-none focus:border-[#00BDE0] transition-colors"
           />
         </div>
 
@@ -83,39 +81,39 @@
           <span
             v-for="(kw, kIdx) in filteredKeywords"
             :key="kIdx"
-            class="inline-flex items-center px-3 py-1.5 rounded-lg text-xs bg-brand-950/70 border border-brand-800 hover:border-gold-400/50 hover:bg-brand-900 text-neutral-200 hover:text-white transition-all cursor-default"
+            class="inline-flex items-center px-3 py-1.5 rounded-lg text-xs bg-[#031B4E]/70 border border-white/10 hover:border-[#00BDE0]/60 hover:bg-[#0A3366] text-slate-200 hover:text-white transition-all cursor-default"
           >
-            <span class="text-gold-400 text-[10px] mr-1.5">#</span>
+            <span class="text-[#00BDE0] text-[10px] mr-1.5">#</span>
             {{ kw }}
           </span>
         </div>
       </div>
 
       <!-- SEO Semantic Entity Index (Fully Crawlable for Search Engines) -->
-      <div class="mt-8 pt-8 border-t border-brand-900/80">
+      <div class="mt-8 pt-8 border-t border-white/10">
         <details class="group cursor-pointer">
-          <summary class="flex items-center justify-between text-xs text-neutral-400 hover:text-gold-300 font-semibold transition-colors list-none py-2">
+          <summary class="flex items-center justify-between text-xs text-neutral-400 hover:text-[#00BDE0] font-semibold transition-colors list-none py-2">
             <span class="flex items-center gap-2">
               <span>📚</span>
               <span>View Full 500+ Top Ranked Clinical &amp; Nutrition Keyword Directory (Google Index)</span>
             </span>
-            <span class="text-gold-400 transition-transform group-open:rotate-180">▼</span>
+            <span class="text-[#00BDE0] transition-transform group-open:rotate-180">▼</span>
           </summary>
           
           <div class="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-xs text-neutral-300">
             <div 
               v-for="(cluster, cIdx) in clusters" 
               :key="cIdx" 
-              class="bg-brand-900/30 border border-brand-800/40 rounded-xl p-4 space-y-2"
+              class="bg-[#0A3366]/30 border border-white/10 rounded-xl p-4 space-y-2"
             >
-              <h4 class="font-bold text-gold-400 text-sm flex items-center gap-1.5">
+              <h4 class="font-bold text-[#00BDE0] text-sm flex items-center gap-1.5">
                 <span>{{ cluster.icon }}</span>
                 <span>{{ cluster.title }}</span>
               </h4>
               <p class="text-[11px] text-neutral-400 leading-relaxed">{{ cluster.summary }}</p>
               <ul class="space-y-1 text-[11px] text-neutral-300 max-h-48 overflow-y-auto pr-1">
                 <li v-for="(k, i) in cluster.keywords" :key="i" class="flex items-start gap-1">
-                  <span class="text-gold-400/70">•</span>
+                  <span class="text-[#00BDE0]">•</span>
                   <span>{{ k }}</span>
                 </li>
               </ul>
@@ -125,13 +123,13 @@
       </div>
 
       <!-- Quick Action Helpline Banner -->
-      <div class="mt-10 rounded-2xl bg-gradient-to-r from-brand-900 via-brand-800 to-brand-900 border border-gold-400/30 p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-2xl">
+      <div class="mt-10 rounded-2xl bg-gradient-to-r from-[#031B4E] via-[#0A3366] to-[#031B4E] border border-[#00BDE0]/30 p-6 sm:p-8 flex flex-col sm:flex-row items-center justify-between gap-6 shadow-2xl">
         <div class="space-y-1 text-center sm:text-left">
-          <h4 class="text-white font-serif text-lg sm:text-xl font-bold">
+          <h4 class="text-white font-bold text-lg sm:text-xl">
             Ready for a Personalized 30-Day Nutrition Protocol?
           </h4>
           <p class="text-xs sm:text-sm text-neutral-300">
-            Direct 1-on-1 consultations with Coach Mahira. WhatsApp <strong class="text-gold-300">0313-7095454</strong> or email <strong class="text-gold-300">mairasaleem475@gmail.com</strong>.
+            Direct 1-on-1 consultations with Coach Mahira. WhatsApp <strong class="text-[#00BDE0]">0313-7095454</strong> or email <strong class="text-[#00BDE0]">mairasaleem475@gmail.com</strong>.
           </p>
         </div>
         <div class="flex items-center gap-3">
@@ -145,7 +143,7 @@
           </a>
           <a
             href="#booking"
-            class="px-5 py-2.5 rounded-xl bg-gold-400 hover:bg-gold-300 text-brand-950 font-bold text-xs shadow-lg transition-all"
+            class="px-5 py-2.5 rounded-xl bg-[#00BDE0] hover:bg-[#00a1be] text-[#031B4E] font-bold text-xs shadow-lg transition-all"
           >
             Book Online
           </a>
@@ -732,10 +730,10 @@ const filteredKeywords = computed(() => {
   border-radius: 9999px;
 }
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: rgba(202, 138, 4, 0.4);
+  background: rgba(0, 189, 224, 0.4);
   border-radius: 9999px;
 }
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgba(202, 138, 4, 0.8);
+  background: rgba(0, 189, 224, 0.8);
 }
 </style>
