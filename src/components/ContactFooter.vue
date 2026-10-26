@@ -188,22 +188,24 @@
 
       <!-- Partner Network & Backlinks Row -->
       <div class="py-6 border-t border-white/10 my-2 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
-        <div class="flex flex-wrap items-center gap-2">
+        <div class="flex flex-wrap items-center gap-3">
           <span class="text-slate-500 font-extrabold uppercase tracking-wider text-[10px]">Partner Network:</span>
           <a 
-            href="https://socialanddigitalmarketing.com/" 
+            href="https://ahmad-cloths.vercel.app/" 
             target="_blank" 
-            rel="noopener"
+            rel="noopener noreferrer"
             class="text-[#00BDE0] hover:text-white font-semibold underline underline-offset-4 transition-colors"
           >
-            S&amp;D Marketing Solution
+            Ahmad Cloths
           </a>
-        </div>
-
-        <div class="text-[11px] text-slate-400">
-          Architecture &amp; Strategy by 
-          <a href="https://socialanddigitalmarketing.com/" target="_blank" rel="noopener" class="text-[#00BDE0] hover:underline font-bold">
-            S&amp;D Marketing Solution
+          <span class="text-slate-600">•</span>
+          <a 
+            href="https://h-q-design-services.vercel.app/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            class="text-[#00BDE0] hover:text-white font-semibold underline underline-offset-4 transition-colors"
+          >
+            H&amp;Q Design Services
           </a>
         </div>
       </div>
